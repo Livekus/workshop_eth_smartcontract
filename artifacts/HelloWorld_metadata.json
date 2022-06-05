@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "hellow",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_word",
+						"type": "string"
+					}
+				],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"helloword_flat.sol": "HelloWorld"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"helloword_flat.sol": {
+			"keccak256": "0x6d0ffcbb47dfe501fdbb77602e812bc3905d364ce1fa59e578a3bb433b9a4f53",
+			"urls": [
+				"bzz-raw://c2d5f1b23b0e51940be3a9e6d6fc6d78bd4b4a2464759c0ed8528681f724fbb7",
+				"dweb:/ipfs/QmTe4WeSTAjm7f9L9xe21ZiUj4xotiy57Mwy3GqeqfmU5a"
+			]
+		}
+	},
+	"version": 1
+}

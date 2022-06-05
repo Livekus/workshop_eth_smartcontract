@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "tokenContract",
+						"type": "address"
+					},
+					{
+						"internalType": "address[]",
+						"name": "recipient",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "batchTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mutisenderERC20.sol": "BatchTransfer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mutisenderERC20.sol": {
+			"keccak256": "0x97a7531bd0fc7f4730e18fa1d91938f58112946cf6906160452b0faa61db64bd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://29e39cce30ec00efc0fb874cbc4b33be89b4a164ad8b2116172baf0b2ec2126e",
+				"dweb:/ipfs/QmRZuEEadePcf5wRHmEUz9MgEbPQ4PC4HsQdkZqdnVPKyn"
+			]
+		}
+	},
+	"version": 1
+}
